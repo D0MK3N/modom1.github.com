@@ -1,0 +1,23 @@
+{
+  "name": "my-dapp",
+  "version": "1.0.0",
+  "description": "A simple Web3.0 DApp with wallet connection on Polygon network",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "keywords": [],
+  "author": "Adam Rizky",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@metamask/detect-provider": "^2.0.0",
+    "ethers": "^6.13.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "web3": "^4.10.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0"
+  }
+}
